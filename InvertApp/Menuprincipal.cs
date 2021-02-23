@@ -49,13 +49,10 @@ namespace InvertApp
             }
             catch (Exception)
             {
-
                 Console.WriteLine("Ha introducido una opcin no valida, vuelva a introducir una opcion pero esta vez del 1 al 5....");
                 Console.ReadKey();
                 imprimirmenu();
-
             }
-
         }
     }     
 }   
